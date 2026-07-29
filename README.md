@@ -1,55 +1,61 @@
-# Firebase Login Demo
+# Flutter Learning Examples - BSE5A
 
-This is a simple Flutter demo project for learning Firebase Authentication.
+This project is a beginner-friendly Flutter learning app that brings together several small but useful examples in one place. Instead of focusing on just one feature, it serves as a dashboard of practical Flutter concepts for students and beginners.
 
-It shows how to build a basic login experience with email and password using Firebase.
+## What this app includes
 
-## What this app does
+The app contains multiple demo screens covering common Flutter topics:
 
-This demo app lets a user:
-
-- sign in with an email and password
-- sign up for a new account
-- see a simple home screen after login
-- log out and return to the login screen
+- Firebase authentication login demo
+- API data fetching
+- Camera access
+- Device location access
+- Navigation between screens
+- Passing data between screens
+- Shared Preferences storage
+- Card, ListTile, and ListView examples
 
 ## Technologies used
 
 - Flutter
+- Dart
 - Firebase Core
 - Firebase Authentication
+- http
+- shared_preferences
+- camera
+- geolocator
 
 ## Project structure
 
-- [lib/main.dart](lib/main.dart) - starts the app and initializes Firebase
-- [lib/login.dart](lib/login.dart) - contains the login and sign-up screen
-- [lib/home.dart](lib/home.dart) - shows the screen after a successful login
+- [lib/main.dart](lib/main.dart) - app entry point and app configuration
+- [lib/app_router.dart](lib/app_router.dart) - route handling for the demo screens
+- [lib/screens/learning_dashboard_screen.dart](lib/screens/learning_dashboard_screen.dart) - main dashboard that lists all examples
+- [lib/features](lib/features) - feature-based folders for each demo category
 
 ## How to run the project
 
-1. Make sure Flutter is installed on your computer.
-2. Create a Firebase project in the Firebase console.
-3. Enable Email/Password sign-in in Firebase Authentication.
-4. Run the following command to connect your app to Firebase:
-
-   ```bash
-   flutterfire configure
-   ```
-
-5. Install the dependencies:
+1. Make sure Flutter is installed on your machine.
+2. Install the dependencies:
 
    ```bash
    flutter pub get
    ```
 
-6. Run the app:
+3. Run the app:
 
    ```bash
    flutter run
    ```
 
+4. If you want to use the Firebase authentication part, make sure your Firebase project is configured properly:
+
+   ```bash
+   flutterfire configure
+   ```
+
 ## Notes
 
-This is a beginner-friendly demo project. It is meant for learning and practice, not for a full production app.
+This project is intended for learning and practice. It is a simple example app and not meant for production use.
 
-If you are new to Flutter or Firebase, this project is a good starting point to understand the basics of authentication in a mobile app.
+It is a good starting point for understanding how Flutter apps can be organized into reusable features while still staying easy to follow.

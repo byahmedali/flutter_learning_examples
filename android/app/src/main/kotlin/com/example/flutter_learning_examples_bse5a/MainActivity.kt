@@ -1,4 +1,4 @@
-package com.example.firebase_login_demo
+package com.example.flutter_learning_examples_bse5a
 
 import io.flutter.embedding.android.FlutterActivity
 
