@@ -1,4 +1,4 @@
-# Flutter Learning Examples - BSE5A
+# Flutter Learning Examples
 
 This project is a beginner-friendly Flutter learning app that brings together several small but useful examples in one place. Instead of focusing on just one feature, it serves as a dashboard of practical Flutter concepts for students and beginners.
 
